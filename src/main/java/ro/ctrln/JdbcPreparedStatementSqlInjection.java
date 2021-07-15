@@ -10,7 +10,7 @@ public class JdbcPreparedStatementSqlInjection {
 
     public static void main(String[] args) {
 
-        String dbUrl = "Jdbc:sqlite:C:\\Users\\cumpa_000\\IdeaProjects\\CtrlN-code\\JDBC\\sql\\sqlite.db";
+        String dbUrl = "jdbc:sqlite:C:\\Users\\cumpa\\CtrlN-code\\AplicatieJava\\JDBC\\sql\\sqlite.db";
         Connection connection = null;
 
         try {
